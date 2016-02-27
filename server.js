@@ -22,7 +22,7 @@ res.send('About Us!');
 
 app.use(express.static(__dirname + '/public'));
 app.listen(port, function(){
-	console.log('Server Started:'+port);
+	console.log('Server Started:'+port  + '  !');
 });
 
 
